@@ -1,0 +1,103 @@
+Title,"A1
+No error rate","A2
+No spatial resolution","A3
+No temporal resolution","A4
+No evaluation of noise resilience","A5
+No evaluation against  mitigations the paper claims to bypass","A6
+Evaluated on a single platform","A7
+Evaluated on a single configuration","B1
+Unfair comparisons","B2
+No comparison","B3
+Evaluation designed to highlight performances","B4
+Benchmark only on highly controlled/simplified environments","C1
+Missing target/target version","C2
+Missing CPU model","C3
+No code / material / documentation to reproduce","C4
+No number of samples for side channel attacks","C5
+Missing details on classifiation of side channel traces","C6
+Missing protocols for covert channels","C7
+Missing information on error rate computation / error correction","C8
+Missing prerequisites (or if they change between attacks…)"
+"Attack Directories, Not Caches: Side-Channel Attacks in a Non-Inclusive World",Flawed,Ok,Ok,Flawed,NA,Ok,Flawed,NA,Flawed,Flawed,Flawed,Ok,Ok,Flawed,Flawed,NA,"Underspec., Unclear, Incomplete",NA,Ok
+Side-Channel Attacks on Optane Persistent Memory,Ok,Ok,Flawed,"Underspec., Incomplete",NA,Flawed,"Underspec., Incomplete",Flawed,Ok,Ok,Ok,Ok,Ok,Ok,Ok,NA,"Underspec., Incomplete",Flawed,Ok
+Exploitation of Security Vulnerability on Retirement,Ok,Flawed,"Underspec., Unclear",Flawed,NA,Ok,"Underspec., Incomplete",Flawed,"Underspec., Incomplete",Flawed,Flawed,Flawed,Ok,Flawed,Ok,Ok,Ok,Ok,Ok
+SQUIP: Exploiting the Scheduler Queue Contention Side Channel,Ok,Ok,Flawed,"Underspec., Incomplete",NA,Ok,Ok,Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Flawed,Ok,NA,Ok,"Underspec., Incomplete",Ok
+Binoculars: Contention-Based Side-Channel Attacks Exploiting the Page Walker,Ok,Ok,Flawed,Flawed,NA,Ok,Ok,Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Ok,"Underspec., Incomplete",Ok,Ok,"Underspec., Incomplete",Ok,Ok
+I See Dead µops: Leaking Secrets via Intel/AMD Micro-Op Caches,Ok,"Underspec., Incomplete",Flawed,Flawed,NA,Ok,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Ok,Flawed,"Underspec., Incomplete",Flawed,NA,"Underspec., Incomplete",Ok,"Underspec., Unclear"
+Prime+Scope: Overcoming the Observer Effect for High-Precision Cache Contention Attacks,Ok,Ok,Ok,Ok,Ok,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,Ok,"Underspec., Incomplete",Ok,NA,Ok,Ok,Ok
+UC-Check: Characterizing Micro-operation Caches in x86 Processors and Implications in Security and Performance,Ok,Flawed,Flawed,Flawed,NA,Ok,Ok,NA,NA,Ok,Ok,Ok,Ok,Ok,"Underspec., Unclear",NA,NA,Ok,Flawed
+IdleLeak: Exploiting Idle State Side Effects for Information Leakage,Ok,NA,Ok,Ok,NA,Ok,Ok,Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Flawed,Ok,"Underspec., Incomplete",Ok,Ok,Ok
+Augury: Using Data Memory-Dependent Prefetchers to Leak Data at Rest,Ok,Ok,Flawed,Ok,NA,Ok,Flawed,NA,Flawed,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Flawed,NA,NA,Ok,Ok
+"Unveiling Hardware-based Data Prefetcher, a Hidden Source of Information Leakage","Underspec., Incomplete",Flawed,Ok,"Underspec., Incomplete",NA,Flawed,Flawed,NA,Flawed,Flawed,Flawed,Ok,Ok,Flawed,Ok,NA,NA,"Underspec., Incomplete",Ok
+All Your PC Are Belong to Us: Exploiting Non-control-Transfer Instruction BTB Updates for Dynamic PC Extraction,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,NA,Flawed,Ok,Ok,Ok,Ok,Flawed,"Underspec., Unclear",NA,NA,Ok,Ok
+TDXdown: Single-Stepping and Instruction Counting Attacks against Intel TDX,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Ok,Flawed,NA,Flawed,Ok,Ok,Ok,Ok,Ok,Ok,NA,NA,Ok,Ok
+AfterImage: Leaking Control Flow Data and Tracking Load Operations via the Hardware Prefetcher,Ok,Ok,"Underspec., Incomplete",Flawed,NA,Ok,Ok,NA,Flawed,Ok,Ok,Flawed,Ok,"Underspec., Incomplete","Underspec., Incomplete",NA,"Underspec., Incomplete",Flawed,Ok
+BranchScope: A New Side-Channel Attack on Directional Branch Predictor,Ok,Ok,Flawed,Ok,NA,Ok,Ok,NA,Flawed,Flawed,Flawed,Ok,Ok,Flawed,NA,NA,"Underspec., Incomplete",Ok,Flawed
+Eavesdropping User Credentials via GPU Side Channels on Smartphones,Ok,Flawed,Ok,Flawed,NA,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,Ok,"Underspec., Incomplete",Ok,Flawed,NA,Ok,Ok
+Last-Level Cache Side-Channel Attacks Are Feasible in the Modern Public Cloud,Ok,Ok,Ok,Ok,NA,Ok,"Underspec., Incomplete",Ok,"Underspec., Incomplete",Ok,Ok,Ok,Ok,"Underspec., Incomplete",Ok,NA,"Underspec., Incomplete",Ok,Ok
+Pathfinder: High-Resolution Control-Flow Attacks Exploiting the Conditional Branch Predictor,Flawed,Ok,Flawed,Flawed,NA,Flawed,Flawed,"Underspec., Unclear",Ok,Ok,Ok,Flawed,Ok,Flawed,Ok,NA,NA,NA,"Underspec., Unclear"
+"Streamline: A Fast, Flushless Cache Covert-Channel Attack by Enabling Asynchronous Collusion",Ok,Ok,Ok,Ok,Ok,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,Ok,Ok,NA,NA,Ok,Ok,Ok
+"Covert Channels through Random Number Generator: Mechanisms, Capacity Estimation and Mitigations",Ok,Flawed,Ok,Ok,NA,Ok,Ok,Flawed,Ok,Ok,Ok,NA,"Underspec., Incomplete",Flawed,NA,NA,Ok,Ok,Ok
+Leaky Buddies: Cross-Component Covert Channels on Integrated CPU-GPU Systems,Ok,Ok,Flawed,Flawed,NA,Flawed,Ok,NA,Flawed,Flawed,Flawed,Ok,Ok,Flawed,Flawed,NA,"Underspec., Incomplete",Flawed,Ok
+ARMageddon: Cache Attacks on Mobile Devices,Ok,Flawed,Ok,Flawed,Ok,Ok,Ok,Flawed,"Underspec., Incomplete",Ok,Ok,"Underspec., Incomplete",Ok,"Underspec., Incomplete","Underspec., Incomplete",NA,Ok,Ok,Ok
+Theory and Practice of Finding Eviction Sets,NA,NA,NA,NA,NA,Ok,NA,NA,NA,Ok,Ok,NA,Ok,"Underspec., Incomplete",NA,NA,NA,NA,NA
+RELOAD+REFRESH: Abusing Cache Replacement Policies to Perform Stealthy Cache Attacks,"Underspec., Unclear",Ok,Ok,"Underspec., Incomplete",Ok,Ok,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Ok,Ok,"Underspec., Incomplete",Ok,NA,Ok,"Underspec., Unclear",Ok
+ASLR on the Line: Practical Cache Attacks on the MMU,Ok,Flawed,Flawed,Ok,NA,Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok,"Underspec., Incomplete",NA,NA,Ok,Ok
+Grand Pwning Unit: Accelerating Microarchitectural Attacks with the GPU,"Underspec., Incomplete",Ok,Flawed,"Underspec., Incomplete",Ok,Ok,Flawed,NA,Flawed,Ok,Ok,Flawed,Ok,Flawed,Flawed,NA,NA,"Underspec., Unclear",Ok
+GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers,Flawed,Ok,Ok,Flawed,NA,Ok,Flawed,NA,Flawed,Ok,Ok,Ok,Ok,Ok,"Underspec., Unclear",NA,NA,NA,Ok
+Rendered Insecure: GPU Side Channel Attacks are Practical,Flawed,Flawed,Ok,Flawed,NA,Ok,Flawed,Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Flawed,Ok,"Underspec., Incomplete","Underspec., Incomplete",NA,Ok
+Port Contention for Fun and Profit,Ok,Ok,Flawed,Ok,NA,Ok,Ok,NA,Flawed,Ok,Ok,Ok,Ok,Flawed,Ok,NA,NA,Ok,Ok
+TunneLs for Bootlegging: Fully Reverse-Engineering GPU TLBs for Challenging Isolation Guarantees of NVIDIA MIG,Ok,"Underspec., Unclear",Ok,Ok,NA,Ok,Ok,NA,Flawed,Ok,Ok,"Underspec., Incomplete",Ok,Flawed,"Underspec., Incomplete","Underspec., Incomplete","Underspec., Incomplete",Ok,Ok
+BunnyHop: Exploiting the Instruction Prefetcher,"Underspec., Incomplete",Ok,Ok,Flawed,NA,Ok,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Ok,Ok,"Underspec., Incomplete","Underspec., Incomplete",NA,NA,Ok,"Underspec., Unclear"
+HyperDegrade: From GHz to MHz Effective CPU Frequencies,Flawed,Flawed,Ok,Flawed,NA,Ok,Flawed,NA,Flawed,Flawed,Ok,Ok,Ok,"Underspec., Incomplete",Ok,NA,NA,NA,Ok
+Translation Leak-aside Buffer: Defeating Cache Side-channel Protections with TLB Attacks,Ok,Ok,Flawed,Ok,NA,Ok,Ok,NA,Flawed,Ok,Ok,Ok,Ok,Flawed,"Underspec., Incomplete","Underspec., Incomplete","Underspec., Incomplete","Underspec., Incomplete",Ok
+Jump over ASLR: Attacking branch predictors to bypass ASLR,Flawed,Flawed,Flawed,"Underspec., Incomplete",NA,Flawed,Flawed,NA,Flawed,Flawed,Ok,Flawed,Ok,Flawed,Ok,NA,NA,NA,Ok
+TLB;DR: Enhancing TLB-based Attacks with TLB Desynchronized Reverse Engineering,Ok,"Underspec., Incomplete",Ok,Ok,NA,Ok,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Ok,Ok,Ok,Flawed,NA,"Underspec., Incomplete","Underspec., Incomplete",Ok
+Abusing Cache Line Dirty States to Leak Information in Commercial Processors,Ok,Ok,Ok,Ok,NA,Flawed,Ok,Flawed,Ok,Flawed,Ok,NA,Ok,Ok,NA,NA,"Underspec., Incomplete",Ok,Ok
+Leaky Frontends: Security Vulnerabilities in Processor Frontends,Ok,Ok,"Underspec., Incomplete",Flawed,NA,Ok,Ok,Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Flawed,Flawed,"Underspec., Incomplete",Ok,Ok,Ok
+Spy in the GPU-box: Covert and Side Channel Attacks on Multi-GPU Systems,Ok,Ok,Ok,"Underspec., Incomplete",NA,Ok,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Flawed,Ok,Flawed,"Underspec., Incomplete",Flawed,Ok,Flawed,Ok
+DPrime+DAbort: A High-Precision and Timer-Free Directory-Based Side-Channel Attack in Non-Inclusive Cache Hierarchies using Intel TSX,Flawed,Ok,Flawed,"Underspec., Incomplete",NA,Ok,Flawed,Flawed,"Underspec., Incomplete",Flawed,Ok,"Underspec., Incomplete",Ok,Flawed,Flawed,NA,Flawed,NA,Ok
+PREFETCHX: Cross-Core Cache-Agnostic Prefetcher-based Side-Channel Attacks,Ok,Flawed,Ok,Flawed,NA,Flawed,Flawed,NA,Flawed,Flawed,Ok,Flawed,Ok,"Underspec., Incomplete",Flawed,NA,"Underspec., Incomplete",Flawed,Flawed
+Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks,Ok,Ok,Ok,Flawed,NA,Ok,Ok,Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Ok,"Underspec., Incomplete","Underspec., Incomplete",NA,Ok,Flawed,Ok
+A Security RISC: Microarchitectural Attacks on Hardware RISC-V CPUs,Ok,Ok,Ok,Ok,NA,Ok,Ok,NA,Flawed,Ok,Ok,"Underspec., Incomplete",Ok,Ok,"Underspec., Incomplete",NA,NA,Ok,Flawed
+Cache Template Attacks: Automating Attacks on Inclusive Last-Level Caches,Ok,Ok,Ok,"Underspec., Incomplete",NA,Ok,"Underspec., Incomplete",Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Ok,"Underspec., Unclear",NA,NA,Ok,Ok
+GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression,Ok,Ok,Flawed,Ok,NA,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,Ok,"Underspec., Incomplete",Flawed,NA,NA,Ok,Ok
+Double Trouble: Combined Heterogeneous Attacks on Non-Inclusive Cache Hierarchies,Ok,Ok,Ok,Ok,NA,Ok,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Ok,Ok,"Underspec., Incomplete",Ok,NA,"Underspec., Incomplete",Flawed,Ok
+Cross-Core Interrupt Detection: Exploiting User and Virtualized IPIs,Ok,Flawed,Ok,Ok,NA,Flawed,Flawed,Flawed,Ok,Ok,Ok,Ok,Ok,Flawed,Ok,"Underspec., Incomplete",Ok,Ok,Ok
+Synchronization Storage Channels (S2C): Timer-less Cache Side-Channel Attacks on the Apple M1 via Hardware Synchronization Instructions,Ok,Ok,Flawed,Flawed,NA,NA,Ok,Ok,Ok,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Ok,NA,Ok,Flawed,Ok
+Constructing and Characterizing Covert Channels on GPGPUs,Ok,Ok,Flawed,Ok,NA,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,Ok,Flawed,NA,NA,Ok,Ok,Ok
+The Spy in the Sandbox: Practical Cache Attacks in JavaScript and their Implications,Flawed,Ok,Flawed,Ok,NA,Ok,Ok,Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Flawed,Ok,Ok,"Underspec., Incomplete",NA,Ok
+S$A: A Shared Cache Attack that Works Across Cores and Defies VM Sandboxing—and its Application to AES,Ok,"Underspec., Unclear",Ok,"Underspec., Unclear",NA,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,Ok,Flawed,Ok,NA,NA,NA,Ok
+Malicious Management Unit: Why Stopping Cache Attacks in Software is Harder Than You Think,Ok,"Underspec., Unclear",Flawed,Ok,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok,NA,Ok,Ok,Ok
+DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks,Ok,Ok,Flawed,Flawed,NA,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,Ok
+Hello from the Other Side: SSH over Robust Cache Covert Channels in the Cloud,Ok,Flawed,Flawed,Ok,NA,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,Ok,Flawed,NA,NA,Ok,Ok,NA
+NVLeak: Off-Chip Side-Channel Attacks via Non-Volatile Memory Systems,Ok,Ok,Ok,Flawed,NA,Ok,Ok,NA,Flawed,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Ok,NA,NA
+Pixel Thief: Exploiting SVG Filter Leakage in Firefox and Chrome,Ok,Ok,"Underspec., Unclear",Ok,NA,Flawed,Ok,Flawed,Ok,Ok,Ok,Ok,Ok,"Underspec., Unclear, Incomplete",Ok,NA,NA,Ok,Ok
+Invalidate+Compare: A Timer-Free GPU Cache Attack Primitive,Ok,Ok,Flawed,Flawed,NA,Ok,Ok,NA,Flawed,Ok,Ok,Ok,Ok,"Underspec., Unclear, Incomplete",Ok,"Underspec., Incomplete",NA,Ok,NA
+BUSted!!! Microarchitectural Side-Channel Attacks on the MCU Bus Interconnect,"Underspec., Unclear",Ok,Flawed,Flawed,NA,Ok,Ok,NA,Flawed,Ok,Ok,Ok,Ok,"Underspec., Incomplete",Flawed,NA,Ok,Flawed,Ok
+Last-Level Cache Side-Channel Attacks are Practical,Ok,Ok,"Underspec., Unclear","Underspec., Incomplete",NA,Ok,Ok,Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Flawed,Ok,NA,Ok,Ok,Ok
+Prime+Abort: A Timer-Free High-Precision L3 Cache Attack using Intel TSX,Flawed,Ok,Ok,Flawed,NA,Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Flawed,"Underspec., Incomplete",Ok,Flawed,Ok,NA,NA,NA,Ok
+"FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack",Ok,Ok,Ok,"Underspec., Incomplete",NA,Flawed,Ok,Flawed,Ok,Flawed,Ok,Ok,Ok,Flawed,Ok,NA,NA,Ok,Ok
+"DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data","Underspec., Incomplete",Flawed,Flawed,Flawed,NA,Ok,"Underspec., Incomplete",NA,Flawed,Ok,Flawed,Ok,Ok,Flawed,"Underspec., Unclear, Incomplete",NA,NA,NA,Ok
+Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86,"Underspec., Incomplete","Underspec., Incomplete","Underspec., Unclear",Flawed,NA,Ok,Ok,NA,Flawed,Ok,Ok,"Underspec., Incomplete",Ok,Ok,"Underspec., Incomplete",NA,Ok,Flawed,Ok
+Don’t Mesh Around: Side-Channel Attacks and Mitigations on Mesh Interconnects,Ok,Ok,Ok,Ok,NA,Flawed,Ok,Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok
+The Gates of Time: Improving Cache Attacks with Transient Execution,Ok,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Ok,Flawed,"Underspec., Incomplete",Ok,Flawed,Ok,Ok,Ok,Ok,Ok,NA,Ok,Ok
+Lord of the Ring(s): Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical,Ok,Ok,Ok,"Underspec., Incomplete",NA,Ok,Ok,Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok
+MeshUp: Stateless Cache Side-channel Attack on CPU Mesh,Ok,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Ok,Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Flawed,Ok,"Underspec., Incomplete",NA,Ok,Ok
+(M)WAIT for It: Bridging the Gap between Microarchitectural and Architectural Side Channels,Ok,Ok,Ok,Ok,NA,Ok,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok
+Uncore Encore: Covert Channels Exploiting Uncore Frequency Scaling,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Flawed,Ok,Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Flawed,Flawed,"Underspec., Incomplete",Ok,"Underspec., Incomplete",Ok
+Leaky Way: A Conflict-Based Cache Covert Channel Bypassing Set Associativity,Ok,Ok,Ok,"Underspec., Incomplete",NA,Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok,"Underspec., Unclear, Incomplete",NA,NA,Ok,"Underspec., Incomplete",Ok
+Invisible Probe: Timing Attacks with PCIe Congestion Side-channel,Ok,NA,Ok,"Underspec., Incomplete",NA,Ok,Ok,"Underspec., Unclear","Underspec., Incomplete",Ok,Ok,Ok,Ok,Ok,Ok,Ok,NA,Ok,Ok
+Are Coherence Protocol States Vulnerable to Information Leakage?,Ok,Ok,Ok,Ok,NA,Flawed,Ok,NA,Flawed,Ok,Ok,Flawed,Ok,Flawed,NA,NA,Ok,Ok,Ok
+POWERT Channels: A Novel Class of Covert CommunicationExploiting Power Management Vulnerabilities,"Underspec., Unclear",Flawed,Ok,"Underspec., Incomplete",NA,Ok,Ok,NA,Flawed,Ok,Flawed,Ok,Ok,Flawed,NA,NA,Ok,Ok,Ok
+PLATYPUS: Software-based Power Side-Channel Attacks on x86,Ok,Ok,Ok,"Underspec., Incomplete",NA,Ok,Ok,Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Flawed,Ok,NA,Ok,"Underspec., Incomplete",Ok
+DevIOus: Device-Driven Side-Channel Attacks on the IOMMU,Ok,Ok,Ok,"Underspec., Incomplete",NA,Flawed,"Underspec., Incomplete",NA,Flawed,Ok,Ok,Ok,Ok,Flawed,Ok,Ok,Ok,"Underspec., Incomplete",Ok
+Network-on-Chip Microarchitecture-based Covert Channel in GPUs,Ok,NA,"Underspec., Incomplete",Flawed,NA,Ok,Ok,Ok,Ok,Flawed,Flawed,Flawed,Flawed,Flawed,NA,NA,Ok,Ok,Ok
+IChannels: Exploiting Current Management Mechanisms to Create Covert Channels in Modern Processors,Ok,Ok,"Underspec., Incomplete",Ok,NA,Ok,Ok,Flawed,Ok,Ok,Ok,Flawed,Ok,Flawed,NA,NA,Ok,Ok,Ok
+Telling Your Secrets Without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution,Flawed,Ok,Ok,NA,Ok,Flawed,Flawed,NA,Flawed,"Underspec., Unclear",Ok,Ok,Ok,Ok,Flawed,NA,NA,NA,Ok
+AMD Prefetch Attacks through Power and Time,Flawed,Ok,"Underspec., Incomplete",Flawed,NA,Ok,Flawed,Flawed,"Underspec., Incomplete",Flawed,Flawed,Ok,Ok,"Underspec., Incomplete",Ok,NA,"Underspec., Incomplete",Flawed,"Underspec., Unclear"
+Veiled Pathways: Investigating Covert and Side Channels Within GPU Uncore,"Underspec., Incomplete",Ok,Ok,Flawed,Ok,Ok,Ok,Flawed,"Underspec., Incomplete",Ok,Ok,"Underspec., Incomplete",Ok,Flawed,Ok,"Underspec., Incomplete","Underspec., Incomplete","Underspec., Incomplete",Ok
+Ghost Arbitration: Mitigating Interconnect Side-Channel Timing Attacks in GPU,Ok,Ok,"Underspec., Incomplete",Flawed,NA,Ok,Ok,NA,Flawed,Ok,Flawed,Flawed,Ok,Flawed,Flawed,"Underspec., Incomplete",NA,NA,Ok
+MetaLeak: Uncovering Side Channels in Secure Processor Architectures Exploiting Metadata,Ok,Ok,Ok,Flawed,"Underspec., Incomplete",Flawed,Ok,NA,Flawed,Flawed,Flawed,"Underspec., Incomplete",Ok,Flawed,Flawed,NA,"Underspec., Incomplete",Ok,Ok
+Leaking Information Through Cache LRU States,Ok,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Flawed,NA,NA,Ok,Ok,Ok
+Collide+Power: Leaking Inaccessible Data with Software-based Power Side Channels,Ok,Ok,Ok,Ok,NA,Ok,Ok,NA,Flawed,Ok,Flawed,Ok,Ok,Ok,Ok,Ok,NA,Ok,Ok
