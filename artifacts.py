@@ -1342,7 +1342,7 @@ def _(final_side_df, pl):
 def _(mo):
     mo.md(
         r"""
-    ### Crypto - CF-based (e.g. mod exp / ECDSA / ECSM) - known vulnerability (37 attacks)
+    ### Crypto - CF-based (e.g. mod exp / ECDSA / ECSM) - known vulnerability (41 attacks)
 
     - GnuPG v1.4.13 (7 times), v1.4.14 + 1 unknown version,
     - GnuPG libgcrypt v1.6.3 (5 times), v1.5.2 (3 times), v1.5.0 and v1.7.5, 
@@ -1357,7 +1357,7 @@ def _(mo):
 
     are the most common targeted victims.
 
-    ### Crypto - memory access-based (e.g. AES T-table) - known vulnerability (16 attacks)
+    ### Crypto - memory access-based (e.g. AES T-table) - known vulnerability (17 attacks)
 
     - OpenSSL v1.0.1e (5 times), v1.0.1f (2 times), v0.9.8, v0.9.8b, v1.1.0g and v1.0.2 + 2 unknown versions
 
