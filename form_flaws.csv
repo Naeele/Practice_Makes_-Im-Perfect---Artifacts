@@ -67,7 +67,7 @@ Cross-Core Interrupt Detection: Exploiting User and Virtualized IPIs,Ok,Flawed,O
 Synchronization Storage Channels (S2C): Timer-less Cache Side-Channel Attacks on the Apple M1 via Hardware Synchronization Instructions,Ok,Ok,Flawed,Flawed,NA,NA,Ok,Ok,Ok,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Ok,NA,Ok,Flawed,Ok
 Constructing and Characterizing Covert Channels on GPGPUs,Ok,Ok,Flawed,Ok,NA,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,Ok,Flawed,NA,NA,Ok,Ok,Ok
 The Spy in the Sandbox: Practical Cache Attacks in JavaScript and their Implications,Flawed,Ok,Flawed,Ok,NA,Ok,Ok,Flawed,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Flawed,Ok,Ok,"Underspec., Incomplete",NA,Ok
-S$A: A Shared Cache Attack that Works Across Cores and Defies VM Sandboxing—and its Application to AES,Ok,"Underspec., Unclear",Ok,"Underspec., Unclear",NA,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,Ok,Flawed,Ok,NA,NA,NA,Ok
+S$A: A Shared Cache Attack that Works Across Cores and Defies VM Sandboxing—and its Application to AES,Ok,"Underspec., Unclear",Ok,"Underspec., Incomplete",NA,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,Ok,Flawed,Ok,NA,NA,NA,Ok
 Malicious Management Unit: Why Stopping Cache Attacks in Software is Harder Than You Think,Ok,"Underspec., Unclear",Flawed,Ok,Ok,Ok,"Underspec., Incomplete",Ok,Ok,Ok,Ok,Ok,Ok,Ok,Ok,NA,Ok,Ok,Ok
 DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks,Ok,Ok,Flawed,Flawed,NA,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,Ok
 Hello from the Other Side: SSH over Robust Cache Covert Channels in the Cloud,Ok,Flawed,Flawed,Ok,NA,Ok,Ok,Flawed,Ok,Ok,Ok,Ok,Ok,Flawed,NA,NA,Ok,Ok,NA
