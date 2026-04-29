@@ -199,7 +199,7 @@ def _(df_data, itertools, np, pl, plt):
 def _(mo):
     mo.md(
         r"""
-    # Reproduction of Figures 6, 9 and 10: The proportion of surveyed papers that make their code, material, and documentation available to reproduce their results, along with the date that Artifact Evaluation (AE) began, if applicable.
+    # Reproduction of Figures 6, 16 and 17: The proportion of surveyed papers that make their code, material, and documentation available to reproduce their results, along with the date that Artifact Evaluation (AE) began, if applicable.
     For all conferences, architecture conferences only and security conferences only.
     """
     )
@@ -747,7 +747,7 @@ def _(df_platforms, mo, n_total, pl, px):
 def _(mo):
     mo.md(
         r"""
-    # Reproduction of Figures 4, 5, 7 and 8: "Distribution of the reported properties performed with covert- channel attacks or side-channel attack types", "Distribution of covert-channel reported properties among papers (Architecture conferences vs. Security conferences)" & "Distribution of papers that contain covert channels and side-channel attack types (Architecture conferences vs. Security conferences)."
+    # Reproduction of Figures 4, 5, 7 and 15: "Distribution of the reported properties performed with covert- channel attacks or side-channel attack types", "Distribution of covert-channel reported properties among papers (Architecture conferences vs. Security conferences)" & "Distribution of papers that contain covert channels and side-channel attack types (Architecture conferences vs. Security conferences)."
     ## Covert channel reported properties.
     """
     )
@@ -1377,7 +1377,7 @@ def _(mo):
 def _(mo):
     mo.md(
         r"""
-    # Reproduction of Figures 11, 12 and 13: Distribution of flawed (fully or partially) per years per papers (all conferences, architecture only and security only).
+    # Reproduction of Figures 8 and 9: Distribution of flawed (fully or partially) per years per papers (all conferences, architecture only and security only).
 
     NOTA BENE: The tables of data can be found in the summary.html file associated with this artifact.
     """
@@ -1546,7 +1546,7 @@ def _(make_bxp_dict, mustache_plot_2param):
     data2_micro_f = make_bxp_dict(min2, q1_2, med2, q3_2, max2)
 
     mustache_plot_2param(
-        data1_f, data2_f,
+        data1_micro_f, data2_micro_f,
         "Number of Flaws and Partial Flaws per Paper",
         "flawed_papers_architecture_conferences",
         "Flaws", "Partial Flaws"
@@ -1573,7 +1573,7 @@ def _(make_bxp_dict, mustache_plot_2param):
     data2_secu_f = make_bxp_dict(min2, q1_2, med2, q3_2, max2)
 
     mustache_plot_2param(
-        data1_f, data2_f,
+        data1_secu_f, data2_secu_f,
         "Number of Flaws and Partial Flaws per Paper",
         "flawed_papers_security_conferences",
         "Flaws", "Partial Flaws"
@@ -1583,7 +1583,7 @@ def _(make_bxp_dict, mustache_plot_2param):
 
 @app.cell
 def _(mo):
-    mo.md(r"""# Reproduction of Figure 14: Distribution of the number of configuration evaluated per years per papers (all conferences, architecture only and security only).""")
+    mo.md(r"""# Reproduction of Figure 11: Distribution of the number of configuration evaluated per years per papers (all conferences, architecture only and security only).""")
     return
 
 
@@ -1688,7 +1688,7 @@ def _(
 
 @app.cell
 def _(mo):
-    mo.md(r"""# Reproduction of Figure 15: Distribution of the number of platform evaluated per years per papers (all conferences, architecture only and security only).""")
+    mo.md(r"""# Reproduction of Figure 10: Distribution of the number of platform evaluated per years per papers (all conferences, architecture only and security only).""")
     return
 
 
@@ -1753,7 +1753,7 @@ def _(
 
 @app.cell
 def _(mo):
-    mo.md(r"""# Reproduction of Figures 16, 17 and 18: Distribution of the number of Benchmark per years per papers (all conferences, architecture only and security only).""")
+    mo.md(r"""# Reproduction of Figures 12, 13 and 14: Distribution of the number of Benchmark per years per papers (all conferences, architecture only and security only).""")
     return
 
 

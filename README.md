@@ -6,7 +6,7 @@ This artifact accompanies the paper:
 
 Its purpose is to enable readers to reproduce the results presented in the paper.
 
-In particular, this repository provides the code and data used to generate Figures **1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 and 18**.
+In particular, this repository provides the code and data used to generate Figures **1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 and 17**.
 
 Figures **2 and 3** are based on external analysis and are provided separately as html files.
 
